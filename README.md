@@ -2,7 +2,14 @@ This library read text document and returns the classification of this document 
 
 To install:
 
-git clone https://github.com/gtoutoungis1/flavors/
+<pre>
+
+git clone git@github.com:gtoutoungis1/flavors.git
+
+cd flavors
+
+sudo python setup.py install
+</pre>
 
 In Python Shell:
 
@@ -23,7 +30,6 @@ The flavors library return the /tmp/categories.html file, here is an example of 
 
 	"An excellent cup of coffee. Notes of stone fruit, cherry and plum. Long finish with hints of milk chocolate and brown sugar."`
 
-	the library *might* return the following categories:
 
 	<pre>
 	[
