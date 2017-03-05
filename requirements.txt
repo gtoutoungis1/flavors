@@ -1,0 +1,2 @@
+flavors==0.1
+fuzzywuzzy==0.15.0

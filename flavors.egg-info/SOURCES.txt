@@ -1,0 +1,10 @@
+setup.py
+flavors/__init__.py
+flavors/parse_flavor_wheel.py
+flavors/test.py
+flavors.egg-info/PKG-INFO
+flavors.egg-info/SOURCES.txt
+flavors.egg-info/dependency_links.txt
+flavors.egg-info/not-zip-safe
+flavors.egg-info/requires.txt
+flavors.egg-info/top_level.txt
