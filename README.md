@@ -17,6 +17,8 @@ score : use fuzzywuzzy library to define the score of a word in a text by using 
 run : use as flavors.run(wheel_file, tasting_file).
 	this is the main method that's calling the traverse method with the wheel_file, and the score method with the tasting_file.
 
+	The docs directory contains an example of the required files.
+
 The flavors library return the /tmp/categories.html file, here is an example of the content of the output file:
 
 	"An excellent cup of coffee. Notes of stone fruit, cherry and plum. Long finish with hints of milk chocolate and brown sugar."`
@@ -32,7 +34,7 @@ The flavors library return the /tmp/categories.html file, here is an example of 
 	</pre>
 
 
-The flavors library return all matching words with score more that the score's average, for all scores with value more than 0.
+The flavors library return all matching words wich their score is more than the score's average, and it is not equal to 0.
 
 
 

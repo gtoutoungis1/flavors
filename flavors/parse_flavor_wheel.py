@@ -10,8 +10,8 @@ def traverse(data, p="None"):
 	# structured imported from Json file
 	flavors = [(str(data['flavor']), str(p))]
 	if 'children' in data:
-		for kid in data['children']:
-			flavors.extend(traverse(kid, data['flavor']))
+		for child in data['children']:
+			flavors.extend(traverse(child, data['flavor']))
 	fl = []
 	for f in flavors:
 		fl.append((f[0], f[1]) if f[0]!=f[1] else (f[0], "None"))
